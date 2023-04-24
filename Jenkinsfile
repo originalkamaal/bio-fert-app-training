@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('GIT PULL') {
             steps {
-                git branch: "develop", url: 'https://github.com/originalkamaal/bio-fert-app-training.git'
+                git branch: "main", url: 'https://github.com/originalkamaal/bio-fert-app-training.git'
             }
         }
         stage('BUILD') {
